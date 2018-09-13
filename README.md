@@ -125,14 +125,9 @@ Generally: No late submissions, no extensions, no exceptions, no dogs eating hom
 If you are in an unfortuante circumstance where you do need an extension, tell us beforehand.
 (Sending an email two hours before the deadline is *not* beforehand).
 
-| No. |   Date   |
-| --- | -------- |
-|  1  | 10. Oct. |
-|  2  | 24. Oct. |
-|  3  | 7.  Nov. |
-|  4  | 21. Nov. |
-|  5  | 5.  Dec. |
-|  6  | 19. Dec. |
+| No.  |    1     |    2     |    3     |    4     |    5     |    6     |
+| ---- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Date | 10. Oct. | 24. Oct. | 7.  Nov. | 21. Nov. | 5.  Dec. | 19. Dec. |
 
 ### Mandatory Code Reviews
 
