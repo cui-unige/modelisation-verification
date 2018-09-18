@@ -154,7 +154,7 @@ Specifically:
 * [ ] did you check that you can test the swift package? (`swift test`)
 * [ ] did you install a code editor? (i.e Atom)
 * [ ] did you read the [Swift tutorial](https://kyouko-taiga.github.io/swift-thoughts/tutorial/)? 
-* [ ] did you reply to Issue #1 with your *full name*, *link to Github profile* (e.g. @stklik), *link to private repository*, *email address*
+* [ ] did you reply to Issue [#1](/../../issues/1) with your *full name*, *link to Github profile* (e.g. @stklik), *link to private repository*, *email address*
 
 *If you encounter any problems, solve them!*
 
