@@ -10,7 +10,6 @@ such as new exercises, homework, slides or fixes.
 * [Page on GitHub](https://github.com/cui-unige/modelisation-verification)
 * Courses are Thursday 14:00 - 16:00
 * Exercises are Thursday 16:00 - 18:00
-* [Gitter](https://gitter.im/cui-unige/modelisation-verification) is available for chatting
 
 ## Environment
 
@@ -27,8 +26,8 @@ We have taken great care to make it as simple as possible.
   Ask GitHub for a [Student Pack](https://education.github.com/pack) to obtain
   free private repositories.
 * [MacOS High Sierra](https://www.apple.com/macos/high-sierra/)
-  or [Ubuntu 16.04 LTS 64bits](https://www.ubuntu.com/download/desktop),
-  in a virtual machine, using for instance [VirtualBox](http://virtualbox.org),
+  or [Ubuntu 18.04 LTS 64bits](https://www.ubuntu.com/download/desktop),
+  in a virtual machine, for instance using [VirtualBox](http://virtualbox.org),
   or directly with a dual boot.
 * [Atom](https://atom.io): a text editor, that we will use to type the sources.
 
@@ -51,30 +50,20 @@ You also have to:
   ```
   
 * [Add as collaborators](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)
-  the users: [`stklik`](https://github.com/saucisson) (Alban Linard)
-  and [`damdamo`](https://github.com/mencattini) (Romain Mencattini).
+  the users: [`stklik`](https://github.com/stklik) (Stefan Klikovits)
+  and [`damdamo`](https://github.com/damdamo) (Damien Morard).
 
 * [Install Swift on your local machine](https://swift.org/getting-started/#installing-swift)
   * MacOS: Install XCode, launch it
-  
-  * on Linux
-  ```sh
-    curl -s https://raw.githubusercontent.com/cui-unige/modelisation-verification/master/bin/install | bash /dev/stdin
-  ```
 
 * Become familiar with Swift (see below)
 
 The environment you installed contains:
 * [Git](https://git-scm.com/docs/gittutorial):
   the tool for source code management;
-* [Lua](https://www.lua.org):
-  the programming language that we will use;
-* [Luarocks](https://luarocks.org):
-  a package manager for Lua;
 * [Atom](https://atom.io):
   the editor we will use.
-  On the first launch, Atom asks to install some missing modules.
-  Do not forget to accept, or your environment will be broken.
+  You will want to add the `language-swift` package. (Perhaps also `autocomplete-swift`).
 
 Make sure that your [repository is up-to-date](https://help.github.com/articles/syncing-a-fork/)
 by running frequently:
@@ -100,7 +89,7 @@ by running frequently:
 
 https://swift.org/getting-started/
 
-> Officially supported OS versions are macOS 10.13 (High Sierra) and Ubuntu 16.10.
+> Officially supported OS versions are macOS 10.13 (High Sierra) and Ubuntu 18.04.
 > You are highly encouraged to use either of those versions.
 
 * Tutorial on Swift: https://kyouko-taiga.github.io/swift-thoughts/tutorial/
@@ -109,15 +98,12 @@ https://swift.org/getting-started/
 ## Homework
 * All homeworks are located in the `homework/` directory.
 * There will be a specific subfolder for each homework (e.g. `homework/hw1_petrinets`). Use it. Do not rename it, place your solutions anywhere else.
-* For warnings about your code, we use [LuaCheck](https://github.com/mpeterv/luacheck).
-  It is already installed in your environment,
-  and can be run using: `luacheck src/`.
+* The swift compiler will warn you. 
+  Make sure you don't see any warnings when you compile your code.
+  You can use `swift build` to run it.
 * For testing, we use [XCTest](https://developer.apple.com/documentation/xctest).
   It is already installed in your environment,
   and can run all the tests within the test folder files using: `swift test`.
-* For code coverage, we use [LuaCov](http://keplerproject.github.io/luacov/).
-  It is already installed in your environment,
-  and can be run using: `luacov`.
 
 ### Homework Deadlines
 You have until 23:59:59 on these dates to **push** your solutions to *your* (private) repository.
@@ -150,6 +136,34 @@ and will be counted towards your
    Average of code reviews: (6 + 4 + 5) / 3 = 5  
    Final note = (4 + 5 + 4 + 5 + 6 + 5 + 5) / 7 = 4.85
 
+### Homework #0 (unmarked)
+
+**Deadline 27.9.2018**
+
+Make your environment work!  
+Specifically:
+* [ ] did you watch this repo
+* [ ] did you create your own **PRIVATE** repo, set this repo as a remote (follow the description above)
+* [ ] did you give @stklik and @damdamo as collaborators
+* [ ] did you assert that you can pull from this repository and push into your private one (`git pull course master;git push`)
+* [ ] did you install swift?
+* [ ] did you check if can you create a swift package? (`mkdir Hello;cd Hello;swift package init`)
+* [ ] did you check that your swift package compiles? (`swift build`)
+* [ ] did you check that you can test the swift package? (`swift test`)
+* [ ] did you install a code editor? (i.e Atom)
+* [ ] did you read the [Swift tutorial](https://kyouko-taiga.github.io/swift-thoughts/tutorial/)? 
+
+*If you encounter any problems, solve them!*
+
+The order of escalation is:
+  1. Google is your friend. (response time < 1 sec.)
+  2. Read the manual. (response time < 1 min.)
+  3. Ask a friend/colleague. (response time < 30 mins.)
+  4. Stackoverflow. [Learn how](https://stackoverflow.com/help/how-to-ask) (response time < 12 hrs.)
+  5. Course assistants. (response time < 1 day.)
+  6. Professor. (response time ???)
+
+<!--
 ### Homework #1
 
 The source files are located within: `homework/hw1_petrinets/`.
@@ -184,3 +198,4 @@ Evaluation will be:
 | Grade |
 | ----- |
 |       |
+ -->
