@@ -6,7 +6,6 @@ such as new exercises, homework, slides or fixes.
 
 ## Important Information and Links
 
-* [Page on Moodle](https://moodle.unige.ch/course/view.php?id=183)
 * [Page on GitHub](https://github.com/cui-unige/modelisation-verification)
 * Courses are Thursday 14:00 - 16:00
 * Exercises are Thursday 16:00 - 18:00
@@ -16,9 +15,6 @@ such as new exercises, homework, slides or fixes.
 This course requires the following **mandatory** environment.
 We have taken great care to make it as simple as possible.
 
-* [Moodle](https://moodle.unige.ch)
-  Check that you are registered in the "Modeling & Verification" classroom;
-  we will not use it afterwards.
 * [GitHub](https://github.com): a source code hosting platform
   that we will for the exercises and homework.
   Create an account, and **do not forget** to fill your profile with your full name
@@ -27,7 +23,7 @@ We have taken great care to make it as simple as possible.
   free private repositories.
 * [MacOS High Sierra](https://www.apple.com/macos/high-sierra/)
   or [Ubuntu 18.04 LTS 64bits](https://www.ubuntu.com/download/desktop),
-  in a virtual machine, for instance using [VirtualBox](http://virtualbox.org),
+  if needed in a virtual machine, for instance using [VirtualBox](http://virtualbox.org),
   or directly with a dual boot.
 * [Atom](https://atom.io): a text editor, that we will use to type the sources.
 
@@ -52,6 +48,12 @@ You also have to:
 * [Add as collaborators](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)
   the users: [`stklik`](https://github.com/stklik) (Stefan Klikovits)
   and [`damdamo`](https://github.com/damdamo) (Damien Morard).
+
+* Comment on Issue #1 with your *full name*, *link to Github profile*, *link to private repository*, *email address*
+  Your response will look like something like this (except you'll replace mine with your data):  
+  E.g.  
+  Stefan Klikovits, @stklik, [Stefan's Repository](http://https://github.com/stklik/modelisation-verification), stefan.klikovits@unige.ch
+
 
 * [Install Swift on your local machine](https://swift.org/getting-started/#installing-swift)
   * MacOS: Install XCode, launch it
@@ -152,6 +154,7 @@ Specifically:
 * [ ] did you check that you can test the swift package? (`swift test`)
 * [ ] did you install a code editor? (i.e Atom)
 * [ ] did you read the [Swift tutorial](https://kyouko-taiga.github.io/swift-thoughts/tutorial/)? 
+* [ ] did you reply to Issue #1 with your *full name*, *link to Github profile* (e.g. @stklik), *link to private repository*, *email address*
 
 *If you encounter any problems, solve them!*
 
