@@ -9,6 +9,12 @@ such as new exercises, homework, slides or fixes.
 * [Page on GitHub](https://github.com/cui-unige/modelisation-verification)
 * Courses are Thursday 14:00 - 16:00
 * Exercises are Thursday 16:00 - 18:00
+* Team: Prof. Didier Buchs, Stefan Klikovits, Damien Morard
+* Use Github issues to communicate with us (public)
+* For private matters send an email or come see us in our offices: 
+    * `didier.buchs@unige.ch` (office 217) 
+    * `stefan.klikovits@unige.ch` (office 222) 
+    * `damien.morard@etu.unige.ch` (office 221)
 
 ## Environment
 
