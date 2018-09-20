@@ -86,8 +86,7 @@ Make sure that your [repository is up-to-date](https://help.github.com/articles/
 by running frequently:
 
 ```sh
-  git fetch course
-  git merge course/master
+  git pull course master
 ```
 
 ## Rules
