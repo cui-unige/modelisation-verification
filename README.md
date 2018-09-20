@@ -6,7 +6,7 @@ such as new exercises, homework, slides or fixes.
 
 ## Important Information and Links
 
-* [Page on GitHub](https://github.com/cui-unige/modelisation-verification)
+* [Page on GitHub: `https://github.com/cui-unige/modelisation-verification`](https://github.com/cui-unige/modelisation-verification)
 * Courses are Thursday 14:00 - 16:00
 * Exercises are Thursday 16:00 - 18:00
 * Team: Prof. Didier Buchs, Stefan Klikovits, Damien Morard
