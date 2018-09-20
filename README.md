@@ -62,9 +62,18 @@ You also have to:
 
 
 * [Install Swift on your local machine](https://swift.org/getting-started/#installing-swift)
-  * MacOS: Install XCode, launch it
+  * Linux: follow instructions in the document
+  * MacOS: Install XCode, launch it and accept the user agreement
 
-* Become familiar with Swift (see below)
+* Become familiar with Swift (see tutorial linked below)
+   * Official: https://swift.org/getting-started/
+   * Tutorial on Swift by Dimitri Racordon (@kyouko-taiga): https://kyouko-taiga.github.io/swift-thoughts/tutorial/
+
+   > The supported OS versions are macOS 10.13 (High Sierra) and Ubuntu 18.04.
+   > You are highly encouraged to use either of those versions.
+
+
+
 
 The environment you installed contains:
 * [Git](https://git-scm.com/docs/gittutorial):
@@ -91,16 +100,6 @@ by running frequently:
 * Unless **explicitly** stated, the exercises are personal work. No collaboration, joint work or sharing of code will be tolerated. You can however discuss general approaches with your colleagues.
 * Your source code (and tests) must pass all checks of `swift test`
   without warnings or errors.
-
-## Getting started with Swift:
-
-https://swift.org/getting-started/
-
-> Officially supported OS versions are macOS 10.13 (High Sierra) and Ubuntu 18.04.
-> You are highly encouraged to use either of those versions.
-
-* Tutorial on Swift: https://kyouko-taiga.github.io/swift-thoughts/tutorial/
-
 
 ## Homework
 * All homeworks are located in the `homework/` directory.
