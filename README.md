@@ -164,7 +164,7 @@ In case there is a problem you cannot solve, here is the order of escalation:
 
 Make your environment work!  
 Specifically:
-* [ ] did you watch this repo
+* [ ] did you `watch` this repo
 * [ ] did you create your own **PRIVATE** repo, set this repo as a remote (follow the description above)
 * [ ] did you give @stklik and @damdamo as collaborators
 * [ ] did you assert that you can pull from this repository and push into your private one (`git pull course master;git push`)
