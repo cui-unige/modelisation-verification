@@ -145,6 +145,20 @@ and will be counted towards your
    Average of code reviews: (6 + 4 + 5) / 3 = 5  
    Final note = (4 + 5 + 4 + 5 + 6 + 5 + 5) / 7 = 4.85
 
+### Getting Help
+
+You should be old and smart enough to find the solutions to most problems by yourself. I.e.:  
+*If you encounter any problems, solve them!*
+
+In case there is a problem you cannot solve, here is the order of escalation:
+  1. Google is your friend. (response time < 1 sec.)
+  2. Read the manual. (response time < 1 min.)
+  3. Ask a friend/colleague. (response time < 30 mins.)
+  4. Stackoverflow. [Learn how](https://stackoverflow.com/help/how-to-ask) (response time < 12 hrs.)
+  5. Course assistants. (response time < 1 day.)
+  6. Professor. (response time ???)
+
+
 ### Homework #0 (unmarked)
 
 **Deadline 27.9.2018**
@@ -162,16 +176,6 @@ Specifically:
 * [ ] did you install a code editor? (i.e Atom)
 * [ ] did you read the [Swift tutorial](https://kyouko-taiga.github.io/swift-thoughts/tutorial/)? 
 * [ ] did you reply to Issue [#1](/../../issues/1) with your *full name*, *link to Github profile* (e.g. @stklik), *link to private repository*, *email address*
-
-*If you encounter any problems, solve them!*
-
-The order of escalation is:
-  1. Google is your friend. (response time < 1 sec.)
-  2. Read the manual. (response time < 1 min.)
-  3. Ask a friend/colleague. (response time < 30 mins.)
-  4. Stackoverflow. [Learn how](https://stackoverflow.com/help/how-to-ask) (response time < 12 hrs.)
-  5. Course assistants. (response time < 1 day.)
-  6. Professor. (response time ???)
 
 <!--
 ### Homework #1
