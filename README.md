@@ -91,7 +91,6 @@ by running frequently:
 * Unless **explicitly** stated, the exercises are personal work. No collaboration, joint work or sharing of code will be tolerated. You can however discuss general approaches with your colleagues.
 * Your source code (and tests) must pass all checks of `swift test`
   without warnings or errors.
-* Your tests must cover at least 80% of the source code, excluding test files.
 
 ## Getting started with Swift:
 
@@ -105,7 +104,10 @@ https://swift.org/getting-started/
 
 ## Homework
 * All homeworks are located in the `homework/` directory.
-* There will be a specific subfolder for each homework (e.g. `homework/hw1_petrinets`). Use it. Do not rename it, place your solutions anywhere else.
+* There will be a specific subfolder for each homework (e.g. `homework/hw1_petrinets`). Use it. Do not rename the folder, place your solutions anywhere else, or do other things.
+* do **not rename** any files, variables, functions, classes, ... unless you are instructed to do so!
+* read the complete instructions **before** starting an assignment 
+* follow the instructions given to you in the assignments
 * The swift compiler will warn you. 
   Make sure you don't see any warnings when you compile your code.
   You can use `swift build` to run it.
