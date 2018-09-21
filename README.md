@@ -128,13 +128,12 @@ If you are in an unfortuante circumstance where you do need an extension, tell u
  * Additionally to submitting homework, you will also be invited to **mandatory** code reviews.
  * Every week a handful of students will be randomly selected to come to the assistants' office and explain their code and what they have done. 
  * The reviews will be about 5 to 10 minutes long and you are expected to confidently present your work.
- * These talks will be graded.
-and will be counted towards your 
+ * These talks will be graded and will be counted towards your grade of the practical work.
 
 ### Evaluation
 
- * The grades of all TPs + the average of your code review grades, devided by 7
- * Example:
+ * The grades of all six TPs + the average of your code review grades, devided by 7
+ * Here is an example oft the calculation, assuming there are three code reviews (CR). *Note that the number of actual CRs might differ in the end*
  
    | TP1 | TP2 | TP3 | TP4 | TP5 | TP6 | CR1 | CR2 | CR3 |
    | --- | --- | --- | --- | --- | --- | --- | --- | --- |
