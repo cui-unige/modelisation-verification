@@ -6,46 +6,7 @@ import PetriKit
 
 public func createBoundedModel() -> PTNet<Place> {
   
-  return PTNet(
-
-    transitions: [
-      PTTransition(
-        named         : "tpt",
-        preconditions : [PTArc(place: .r)],
-        postconditions: [PTArc(place: .p), PTArc(place: .t)]),
-      PTTransition(
-        named         : "tpm",
-        preconditions : [PTArc(place: .r)],
-        postconditions: [PTArc(place: .p), PTArc(place: .m)]),
-      PTTransition(
-        named         : "ttm",
-        preconditions : [PTArc(place: .r)],
-        postconditions: [PTArc(place: .t), PTArc(place: .m)]),
-      PTTransition(
-        named         : "ts1",
-        preconditions : [PTArc(place: .p), PTArc(place: .t), PTArc(place: .w1)],
-        postconditions: [PTArc(place: .r), PTArc(place: .s1)]),
-      PTTransition(
-        named         : "ts2",
-        preconditions : [PTArc(place: .p), PTArc(place: .m), PTArc(place: .w2)],
-        postconditions: [PTArc(place: .r), PTArc(place: .s2)]),
-      PTTransition(
-        named         : "ts3",
-        preconditions : [PTArc(place: .t), PTArc(place: .m), PTArc(place: .w3)],
-        postconditions: [PTArc(place: .r), PTArc(place: .s3)]),
-      PTTransition(
-        named         : "tw1",
-        preconditions : [PTArc(place: .s1)],
-        postconditions: [PTArc(place: .w1)]),
-      PTTransition(
-        named         : "tw2",
-        preconditions : [PTArc(place: .s2)],
-        postconditions: [PTArc(place: .w2)]),
-      PTTransition(
-        named         : "tw3",
-        preconditions : [PTArc(place: .s3)],
-        postconditions: [PTArc(place: .w3)]),
-      ])
+  return createModel()
 }
 
 public enum Place2: CaseIterable {
