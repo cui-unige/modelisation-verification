@@ -65,7 +65,7 @@ Un fumeur ne se saisit pas des ingrédients manquants tant qu'il fume déjà une
 Ces restrictions mises à part, chaque acteur répète inlassablement son processus respectif.
 
 La figure[1] ci-dessous: représente une possible modélisation du problème des fumeurs de cigarette,
-pour 4 fumeurs.
+pour 3 fumeurs.
 
 *Figure 1: Problème des fumeurs de cigarette*  
 
