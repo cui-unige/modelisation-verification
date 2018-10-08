@@ -44,7 +44,7 @@
 
 ### Les fumeurs de cigarette
 
-Dans cet exerice, nous allons modéliser [le problème des fumeurs de cigarettes](https://en.wikipedia.org/wiki/Cigarette_smokers_problem).  
+Dans cet exerice, nous allons modéliser une version sans deadlock du ([problème des fumeurs de cigarettes](https://en.wikipedia.org/wiki/Cigarette_smokers_problem)).  
 Ce problème, énoncé par *Suhas Patil*, se présente de la manière suivante:
 
 Pour fabriquer et fumer une cigarette, trois ingrédients sont nécessaires:  
