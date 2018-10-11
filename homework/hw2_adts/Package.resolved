@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LogicKit",
+        "repositoryURL": "https://github.com/kyouko-taiga/SwiftKanren.git",
+        "state": {
+          "branch": null,
+          "revision": "7f5fbcc2023a49c04d4d96aee883ce2da73c8dbb",
+          "version": "0.3.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
