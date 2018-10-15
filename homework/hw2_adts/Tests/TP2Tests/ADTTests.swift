@@ -1,6 +1,6 @@
 import XCTest
 import LogicKit
-@testable import TP2
+import TP2
 
 extension ADTTests {
     static var allTests : [(String, (ADTTests) -> () throws -> Void)] {
