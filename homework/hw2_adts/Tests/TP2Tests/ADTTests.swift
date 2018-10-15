@@ -2,18 +2,14 @@ import XCTest
 import LogicKit
 import TP2
 
-extension ADTTests {
-    static var allTests : [(String, (ADTTests) -> () throws -> Void)] {
-        return [
-            ("testBool", testBool),
-            ("testNat", testNat),
-            ("testInt", testInt),
-        ]
-    }
-}
 
-class ADTTests: XCTestCase {
+class TP2Tests: XCTestCase {
 
+  static let allTests = [
+      ("testBool"  , testBool),
+      ("testNat", testNat),
+      ("testInt"    , testInt),
+    ]
 
   internal func TAssert(_ a: Term,_ b: Term){
     let msg = "\(ADTm.pprint(a)) == \(ADTm.pprint(b))"
