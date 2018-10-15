@@ -2,17 +2,8 @@ import XCTest
 import LogicKit
 import TP2
 
-//extension ADTTests {
-//    static var allTests : [(String, (ADTTests) -> () throws -> Void)] {
-//        return [
-//            ("testBool", testBool),
-//            ("testNat", testNat),
-//            ("testInt", testInt),
-//        ]
-//    }
-//}
 
-class ADTTests: XCTestCase {
+class TP2Tests: XCTestCase {
 
   static let allTests = [
       ("testBool"  , testBool),
