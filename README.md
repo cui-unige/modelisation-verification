@@ -14,7 +14,7 @@ such as new exercises, homework, slides or fixes.
 * For private matters send an email or come see us in our offices: 
     * `didier.buchs@unige.ch` (office 217) 
     * `stefan.klikovits@unige.ch` (office 222) 
-    * `damien.morard@etu.unige.ch` (office 221)
+    * `damien.morard@unige.ch` (office 221)
 
 ## Environment
 
