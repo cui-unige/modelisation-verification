@@ -74,10 +74,10 @@ class ProofTests: XCTestCase {
       // x + s(y) = s(x + y)
       let ax1 = ADTm["nat"].a("+")[1]
 
-      // 0 + x = x
+      // suc(0) + x -> suc(x)
       let conj = Rule(
-        Nat.add(Nat.zero(), Variable(named: "x")),
-        Variable(named: "x")
+        Nat.add(Nat.succ(x: Nat.zero()), Variable(named:"x")),
+        Nat.succ(x: Variable(named: "x"))
       )
 
       // Substitution ax1: x -> s(0)
