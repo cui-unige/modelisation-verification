@@ -7,7 +7,7 @@
 
 public struct Kripke {
   // We create a Kripke structure to apply our model checking methods
-  // nodes is a dictionnary (ex: ["s0": [x, y], "s1": [y, z], "s0": [x, y, z]])
+  // nodes is a dictionnary (ex: ["s0": [x, y], "s1": [y, z], "s2": [x, y, z]])
   // transitions is set of list (ex: [["s0", "s1"], ["s0", "s2"]])
   
   public typealias Nodes = [String: Set<AP>]
